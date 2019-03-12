@@ -1,0 +1,140 @@
+html{
+  scroll-behavior: smooth;
+
+}
+body{
+
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      background-size: cover;
+      -o-background-size: cover;
+
+}
+#index{
+      background: url('../pics/miasto.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/miasto.jpg');
+      background-size: cover;
+      height: 100vh;
+
+}
+#japan{
+      background: url('../pics/sushi.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/sushi.jpg');
+      background-size: cover;
+      height: 100vh;
+}
+#tai{
+      background: url('../pics/pad.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/pad.jpg');
+      background-size: cover;
+      height: 100vh;
+
+}
+#india{
+      background: url('../pics/curry.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/curry.jpg');
+      background-size: cover;
+      height: 100vh;
+
+}
+#china{
+      background: url('../pics/gong.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/gong.jpg');
+      background-size: cover;
+      height: 100vh;
+
+}
+#me{
+      background: url('../pics/about.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/about.jpg');
+      background-size: cover;
+      height: 100vh;
+
+
+}
+#recipes{
+      background: url('../pics/recipes.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/recipes.jpg');
+      background-size: cover;
+      height: 100vh;
+}
+section{
+      color: white;
+}
+
+.col-lg-6{
+      margin:auto;
+      text-align: justify;
+      top: 25vh;
+      border-style: solid;
+      border-width: medium;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 10%,rgba(0,0,0,0.33) 90%);
+
+}
+.col-lg-4{
+      margin:auto;
+      top: 5vh;
+      text-align: center;
+      border-style: solid;
+      border-width: medium;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 10%,rgba(0,0,0,0.33) 90%);
+
+}
+.display-2{
+      text-align: center;
+}
+.col-sm-4{
+      margin-left: auto;
+      top: 10vh;
+      text-align: justify;
+      /*border-style: solid;
+      border-width: medium;*/
+
+}
+.col-lg-7{
+      top: 10vh;
+      margin-left: auto;
+      margin-right:auto;
+      text-align: justify;
+      /*border-style: solid;
+      border-width: medium;*/
+
+}
+.row{
+      margin:auto;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+      color: rgba(255,255,255,1);
+}
+
+#listProduct{
+      width: 49%;
+      background-color: #f8f9fa;
+      color: black;
+      margin-top: 3px;
+      list-style: none;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      vertical-align: middle;
+      max-height: 190px;
+      overflow-x: hidden;
+      overflow-y: auto;
+}
+#listProduct li{
+      font-size: 20px;
+      text-align: left;
+}
+#searchProduct, #resultSearch{
+      width: 49%;
+      background-color: #f8f9fa;
+      color: black;
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      font-size: 20px
+}
+.form-check-label{
+      font-size: 1.06rem;
+}
