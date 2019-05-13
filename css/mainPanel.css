@@ -1,0 +1,52 @@
+html{
+      scroll-behavior: smooth;
+      font-size: calc(0.7rem + 0.4vw);
+
+
+}
+body{
+
+      background: url('../pics/light.jpg') no-repeat center center fixed;
+      background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/light.jpg');
+      background-size: cover;
+      color: white;
+}
+
+
+.navbar-dark .navbar-nav .nav-link{
+      color: rgba(255,255,255,1);
+}
+
+.col-sm{
+      margin-top: 30px;
+      margin-bottom: 50px;
+      text-align: center;
+}
+.form-group{
+      color: white;
+      border: 0px;
+      text-align: left;
+      font-size: 1rem;
+
+}
+#loginUser{
+      color: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+}
+.btn {
+  background: transparent;
+  color: white;
+  border: 0;
+  margin: auto;
+  text-align: center;
+}
+
+
+button{
+  text-align: center;
+}
+li{
+  text-align: left;
+}

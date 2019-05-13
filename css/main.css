@@ -1,5 +1,6 @@
 html{
   scroll-behavior: smooth;
+  font-size: calc(0.7rem + 0.4vw);
 
 }
 body{
@@ -14,95 +15,91 @@ body{
       background: url('../pics/miasto.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/miasto.jpg');
       background-size: cover;
-      height: 100vh;
-
+      color: white;
 }
 #japan{
       background: url('../pics/sushi.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/sushi.jpg');
       background-size: cover;
-      height: 100vh;
+      color: white;
 }
 #tai{
       background: url('../pics/pad.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/pad.jpg');
       background-size: cover;
-      height: 100vh;
-
+      color: white;
 }
 #india{
       background: url('../pics/curry.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/curry.jpg');
       background-size: cover;
-      height: 100vh;
-
+      color: white;
 }
 #china{
       background: url('../pics/gong.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/gong.jpg');
       background-size: cover;
-      height: 100vh;
-
+      color: white;
 }
 #me{
       background: url('../pics/about.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/about.jpg');
       background-size: cover;
-      height: 100vh;
-
-
+      color: white;
 }
 #recipes{
       background: url('../pics/recipes.jpg') no-repeat center center fixed;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 0%,rgba(0,0,0,0.33) 50%), url('../pics/recipes.jpg');
       background-size: cover;
-      height: 100vh;
-}
-section{
       color: white;
 }
+.container-fluid{
+      min-height: 100vh;
+      max-height: 100%;
 
-.col-lg-6{
+}
+
+
+
+.col-sm{
       margin:auto;
-      text-align: justify;
-      top: 25vh;
+      max-width: 80vw;
+      margin-top: 12.5%;
+      margin-bottom: auto;
       border-style: solid;
       border-width: medium;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 10%,rgba(0,0,0,0.33) 90%);
 
 }
-.col-lg-4{
+#logoRecipes{
       margin:auto;
-      top: 5vh;
+      margin-top: 3%;
       text-align: center;
       border-style: solid;
       border-width: medium;
       background-image: linear-gradient(to bottom, rgba(0,0,0,0.1) 10%,rgba(0,0,0,0.33) 90%);
 
 }
-.display-2{
+.display-3{
       text-align: center;
+      word-wrap: break-word;
+      hyphens: auto;
 }
 .col-sm-4{
-      margin-left: auto;
-      top: 10vh;
+      margin-top: 5px;
       text-align: justify;
       /*border-style: solid;
       border-width: medium;*/
 
 }
-.col-lg-7{
-      top: 10vh;
-      margin-left: auto;
-      margin-right:auto;
+.col-sm-8{
+      margin-top: 5px;
       text-align: justify;
       /*border-style: solid;
       border-width: medium;*/
 
 }
-.row{
-      margin:auto;
-}
+
 
 .navbar-dark .navbar-nav .nav-link{
       color: rgba(255,255,255,1);
@@ -123,7 +120,7 @@ section{
       overflow-y: auto;
 }
 #listProduct li{
-      font-size: 20px;
+    /*  font-size: 20px;*/
       text-align: left;
 }
 #searchProduct, #resultSearch{
@@ -133,8 +130,43 @@ section{
       -moz-border-radius: 5px;
       -webkit-border-radius: 5px;
       border-radius: 5px;
-      font-size: 20px
+    /*  font-size: 20px*/
 }
 .form-check-label{
-      font-size: 1.06rem;
+    /*  font-size: 1.06rem;*/
+}
+
+#carouselDishes img {
+      height: 60vh;
+      width: 100%;
+      border-radius: 5px;
+      box-shadow: 0 0 8px 8px white inset;
+}
+#loginDiv{
+      max-width: 150px;
+      background: transparent;
+      border: 0;
+      color: white;
+      text-align: center;
+}
+
+#loginUser{
+      color: white;
+      position: fixed;
+      top: 0;
+      right: 0;
+}
+
+
+.modal-content img{
+      max-width:100%;
+      max-height:100%;
+}
+.modal-content{
+      background-color: black;
+      text-align: justify;
+}
+.modal-title{
+    /*  font-size: 2rem;*/
+      text-align: center;
 }
